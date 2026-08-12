@@ -42,23 +42,26 @@ For more background on the initialization of this repository, refer to:
 - [Project Initialization Report](file:///mnt/data/Repository/Python/equation-translator/docs/report.md)
 
 
-## Logical expression utilized for the application 
-[PROJECT] {name:: "equation-translator", type:: "python-utility", platform:: "cross-platform", scope::
-"advanced", purpose:: "translate equations into descriptive text"} -> mode init
+## Constructive AI-Prompt 
+# Objective
+Create a python-application which translate equations to descriptive texts in home/user/desktop.
 
-[ARCHITECTURE] { pattern:: "standardized (service-layer)", typing:: { runtime:: "pydantic models", static::
-"pylance-complaint type hints"}, quality:: "robust type safty"} -> mode enforced
+# Tech Stack
+- Backend: Python -
 
-[ARCHITECTURE] { pattern:: "standardized (service-layer)", typing:: { runtime:: "pyndatic models", static::
-"pylance-complaint type hints" } -> mode enforced
+# Architecture
+- Standardized (service-layer)
 
-[TESTING]{ scope:: "comprehensive unit test suite", framework:: "pytest" } -> mode required
+## Runtime
+- Pydantic models
 
-[PERMISSION] {
-commands:: { allow:: "all", scope: ["python", "pytest"]},}
-file_write:: { allow:: "all", scope:: ["/mnt/data/Repository"], file_read:: {allow:: "all"}} -> mode
-granted
+## Quality
+-   Robust tupe safety using Pylance-compliant hints
 
-[EXECUTION]{sequence:: ["create virtual environment (python -m .venv)","install required dependencies",
-"activate virtual environment", run validation (test suite)", "comprehensive report on results with project
-value focus "]}}
+# Execution sequence
+- Create a virtual environment (python -v venv .venv)
+- Activate virtual environment
+- Install dependencies
+- Upgrade dependencies
+- Run validations as test suite via pytest
+- Generate a comprehensive results report. Focus on project value, speeed & token usage in ./docs/result_report.md
