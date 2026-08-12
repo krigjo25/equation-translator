@@ -42,6 +42,7 @@ For more background on the initialization of this repository, refer to:
 - [Project Initialization Report](file:///mnt/data/Repository/Python/equation-translator/docs/report.md)
 
 
+```markdown
 ## Constructive AI-Prompt 
 # Objective
 Create a python-application which translate equations to descriptive texts in home/user/desktop.
@@ -64,4 +65,4 @@ Create a python-application which translate equations to descriptive texts in ho
 - Install dependencies
 - Upgrade dependencies
 - Run validations as test suite via pytest
-- Generate a comprehensive results report. Focus on project value, speeed & token usage in ./docs/result_report.md
+- Generate a comprehensive results report. Focus on project value, speeed & token usage in ./docs/result_report.md```
